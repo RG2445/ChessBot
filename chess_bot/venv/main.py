@@ -14,7 +14,7 @@ async def main():
         await page.wait_for_selector(".board")  
         print("Chess.com loaded and board ready")
 
-        await asyncio.sleep(99999)  
+        await asyncio.sleep(9999)  
 
         await browser.close()
 
